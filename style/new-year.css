@@ -1,0 +1,24 @@
+   
+* {
+    font-family: "Slabo 27px", serif;
+    margin: 0;
+}
+
+
+      /* Header section */
+
+      header{ background-image: url(../images/banner/banner3.png);
+    height: 800px;background-size: cover;
+    }
+
+       .header{ text-align: right; padding-top: 200px; padding-right: 150px; color: aliceblue; padding-bottom: 200px;}
+         
+
+  .head{ text-align: right;padding-bottom: 20px; padding-left: 800px; font-family: serif;font-size: 60px;
+  }
+
+.header-description{text-align: right; padding-left: 800px; padding-bottom: 20px; font-size: 22px;}
+
+.btn-primary{  font-weight: 700;font-size: 20px; padding: 15px 20px;color: rgba(0, 100, 215, 1);
+border-radius: 7px;border: 0;
+}
