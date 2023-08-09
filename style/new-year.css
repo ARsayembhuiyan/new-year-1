@@ -1,24 +1,70 @@
-   
 * {
     font-family: "Slabo 27px", serif;
     margin: 0;
 }
 
+/* Header section */
 
-      /* Header section */
+header {
+    background-image: url(../images/banner/banner3.png);
+    height: 800px;
+    background-size: cover;
+}
 
-      header{ background-image: url(../images/banner/banner3.png);
-    height: 800px;background-size: cover;
-    }
+.header {
+    text-align: right;
+    padding-top: 200px;
+    padding-right: 150px;
+    color: aliceblue;
+    padding-bottom: 200px;
+}
 
-       .header{ text-align: right; padding-top: 200px; padding-right: 150px; color: aliceblue; padding-bottom: 200px;}
-         
+.head {
+    text-align: right;
+    padding-bottom: 20px;
+    padding-left: 800px;
+    font-family: serif;
+    font-size: 60px;
+}
 
-  .head{ text-align: right;padding-bottom: 20px; padding-left: 800px; font-family: serif;font-size: 60px;
-  }
+.header-description {
+    text-align: right;
+    padding-left: 800px;
+    padding-bottom: 20px;
+    font-size: 22px;
+}
 
-.header-description{text-align: right; padding-left: 800px; padding-bottom: 20px; font-size: 22px;}
+.btn-primary {
+    font-weight: 700;
+    font-size: 20px;
+    padding: 15px 20px;
+    color: rgba(0, 100, 215, 1);
+    border-radius: 7px;
+    border: 0;
+}
 
-.btn-primary{  font-weight: 700;font-size: 20px; padding: 15px 20px;color: rgba(0, 100, 215, 1);
-border-radius: 7px;border: 0;
+/* My failures of  previous year */
+
+.section {
+    display: flex;
+    margin-top: 100px; margin-left: 250px;
+}
+
+.section-head {
+    margin-top: 250px;
+    margin-left: 100px;margin-bottom: 150px;
+}
+
+.section-title {
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+
+.section-description {
+    font-size: 20px;
+    padding-bottom: 20px;padding-right: 300px;
+}
+
+.description {
+    font-size: 20px;
 }
